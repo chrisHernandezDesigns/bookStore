@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d117452c36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="t-left">
+                <a href="#">Stores & Events</a>
+                <a href="#">Holiday Shipping</a>
+                <a href="#">Membership</a>
+                <a href="#">Coupons & Deals</a>
+                <a href="#">Bestsellers</a>
+                <a href="#">Gift Cards</a>
+            </div>
+            <div class="t-right">
+                <a href="#">
+                <i class="fa-solid fa-user"></i>
+                My Account</a>
+                <a href="#">Wishlist</a>
+            </div>
+        </div>
+        <div class="mid">
+            <h1>Farms <span>&</span> Royals</h1>
+            <div class="search">
+                    <button class="filter">All</button>
+                    <input type="text" placeholder="Search by Keyword">
+                    <button class="sub" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    
+            </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="bottom">
+            <div class="dropdown">
+                <button class="dropbtn">Books</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Fiction</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Nonfiction</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Ebooks</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Audiobooks</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            
+            <div class="dropdown">
+                <button class="dropbtn">Teens & YA</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Kids</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Toys & Games</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Stationery & Gifts</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Music & Movies</button>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sec1">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="img-wrapper">
+                    <img src="imgs/s1.jpg">
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="img-wrapper">
+                    <img src="imgs/s2.jpg">
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="img-wrapper">
+                    <img src="imgs/s3.jpg">
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="img-wrapper">
+                    <img src="imgs/s4.jpg">
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+    </section>
+
+    <section class="sec2">
+        <div class="grid-container">
+
+            <div class="grid-item item1">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b1.jpg">
+                    </div>
+                    <h2>Aesop's Illustrated Fables</h2>
+                    <a href="#" class="author-name">Authors Name</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item2">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b2.jpg">
+                    </div>
+                    <h2>Tales of Norse Myhology</h2>
+                    <a href="#" class="author-name">Helen A Guerer</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item3">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b3.jpg">
+                    </div>
+                    <h2>The Count of Monte Cristo</h2>
+                    <a href="#" class="author-name">Alexander Damos</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item4">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b4.jpg">
+                    </div>
+                    <h2>Classic Horror Stories</h2>
+                    <a href="#" class="author-name">Unknown</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item5">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b5.jpg">
+                    </div>
+                    <h2>Complete Collection</h2>
+                    <a href="#" class="author-name">Edger Allen Poe</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item6">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b6.jpg">
+                    </div>
+                    <h2>Arabian Nights</h2>
+                    <a href="#" class="author-name">Collection</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item7">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b7.jpg">
+                    </div>
+                    <h2>Nikola Tesla</h2>
+                    <a href="#" class="author-name">Collection</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item8">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b8.jpg">
+                    </div>
+                    <h2>Frankenstein</h2>
+                    <a href="#" class="author-name">Mary Shelley</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item item9">                <div class="card">
+                    <div class="img-wrap">
+                        <img src="imgs/b9.jpg">
+                    </div>
+                    <h2>Sherlock</h2>
+                    <a href="#" class="author-name">Collection</a>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div></div>
+        </div>
+    </section>
+
+    <section class="sec3">
+        <div class="container">
+
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="imgs/g1.jpg">
+                </div>
+                <h2>Holiday Offer!</h2>
+                <p>Special Offer with Purchase</p>
+                <a href="#">Explore Now</a>
+            </div>
+
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="imgs/g2.jpg">
+                </div>
+                <h2>Holiday Offer!</h2>
+                <p>Special Offer with Purchase</p>
+                <a href="#">Explore Now</a>
+            </div>
+
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="imgs/g5.jpg">
+                </div>
+                <h2>Holiday Offer!</h2>
+                <p>Special Offer with Purchase</p>
+                <a href="#">Explore Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec4">
+        <div class="top">
+            <h1>Get to Know Farms & Royals Online</h1>
+            <p><span>Buy Books Online at FR.com America's Fav Bookstore</span><br>
+            No matter what you're a fan of, from Fiction to Biography, Sci-Fi and more,
+        Shop bestselling books from NY Times Bestsellers list. </p>
+        <a href="#">Read More</a>
+        </div>
+
+        <div class="bottom">
+            <div class="card">
+                <i class="fa-solid fa-headphones"></i>
+                <span>Audio Books</span>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-comment"></i>
+                <span>F&R Reads Blog</span>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-podcast"></i>
+                <span>F&R Podcast</span>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-flag"></i>
+                <span>F&R Membership</span>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-truck-pickup"></i>
+                <span>F&R Pick-Up</span>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-gift"></i>
+                <span>Gift Cards</span>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-store"></i>
+                <span>Stores & Events</span>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="links-container">
+            <ul>
+                <h2>F&R Services</h2>
+                <a href="#">Affilate Program</a>
+                <a href="#">Publisher & Author Guidelines</a>
+                <a href="#">Bulk Order Discounts</a>
+                <a href="#">F&R Mobile Apps</a>
+                <a href="#">F&R Membership</a>
+                <a href="#">F&R Kids Club</a>
+                <a href="#">F&R Educators</a>
+                <a href="#">F&R Bookfairs</a>
+            </ul>
+            <ul>
+                <h2>About Us</h2>
+                <a href="#">About F&R</a>
+                <a href="#">Careers at F&R</a>
+                <a href="#">Farms & Royals Inc</a>
+                <a href="#">F&R Kitchen</a>
+            </ul>
+
+            <ul>
+                <h2>Quick Help</h2>
+                <a href="#">Help Center</a>
+                <a href="#">Shipping & Returns</a>
+                <a href="#">Order Status</a>
+                <a href="#">Gift Cards</a>
+            </ul>
+
+            <ul>
+                <h2>Shop By Category</h2>
+                <a href="#">Books</a>
+                <a href="#">Fiction</a>
+                <a href="#">Nonfiction</a>
+                <a href="#">Kids</a>
+                <a href="#">Teens & YA</a>
+                <a href="#">eBooks</a>
+                <a href="#">Audiobooks</a>
+            </ul>
+
+            <div class="right">
+                <div class="top-right">
+                    <h2>Find a Store</h2>
+                    <input placeholder="Location, or Zip Code">
+                    <button type="submit">></button> 
+                </div>
+
+                <div class="mid-right">
+                    <h2>Sign Up For Savings</h2>
+                    <input placeholder="Email">
+                    <button type="submit">></button>
+                </div>
+
+                <div class="bottom-right">
+                    <h2>Follow Us</h2>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+                </div>
+                 
+            </div>
+
+
+        </div>
+        <div class="bottom">
+            <h3>Designed By: Chris Hernandez HTML/CSS/JAVASCRIPT</h3>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
